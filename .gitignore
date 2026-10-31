@@ -1,0 +1,5 @@
+build/
+firmware/build/
+firmware/local_config.h
+__pycache__/
+.DS_Store

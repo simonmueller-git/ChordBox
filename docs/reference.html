@@ -1,0 +1,252 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<title>ChordBox reference</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700&family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+@page { size: 11in 8.5in; margin: 0.28in 0.32in; }
+* { box-sizing: border-box; }
+body { margin: 0; font: 6.9pt/1.3 "IBM Plex Sans", Helvetica, Arial, sans-serif; color: #141518; background: #fff; }
+.page { height: 7.92in; display: flex; flex-direction: column; page-break-after: always; overflow: hidden; }
+.page:last-child { page-break-after: auto; }
+header { display: flex; align-items: baseline; justify-content: space-between; border-bottom: 1.4pt solid #141518; padding-bottom: 3pt; margin-bottom: 2pt; }
+.mark { font: 700 17pt/1 Archivo, Helvetica, sans-serif; font-stretch: 125%; }
+.mark span { color: #F25A0C; }
+.sub { color: #55585F; font: 500 6.6pt/1.3 "IBM Plex Mono", monospace; text-transform: uppercase; letter-spacing: .05em; text-align: right; }
+.cols { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 11pt; flex: 1; min-height: 0; }
+h2 { font: 700 6.8pt/1 Archivo, Helvetica, sans-serif; font-stretch: 125%; letter-spacing: .1em; text-transform: uppercase; margin: 6pt 0 2.5pt; display: flex; gap: 4px; align-items: center; }
+h2::before { content: ""; width: 6px; height: 6px; background: #F25A0C; flex: none; }
+h2:first-child { margin-top: 2pt; }
+.k { font: 600 6.4pt/1 "IBM Plex Mono", monospace; border: 0.6pt solid #141518; border-radius: 2pt; padding: 0.6pt 2.2pt; white-space: nowrap; }
+.k.set { border-color: #2F7BF0; color: #1B55B0; }
+.k.btn { background: #141518; color: #fff; }
+.k.sh { background: #F25A0C; color: #fff; border-color: #F25A0C; }
+b { font-weight: 600; }
+p { margin: 1.5pt 0; }
+ul { margin: 1pt 0 0; padding-left: 9pt; }
+li { margin: 0.9pt 0; }
+table { border-collapse: collapse; width: 100%; }
+th { text-align: left; font: 600 5.8pt/1.2 "IBM Plex Mono", monospace; text-transform: uppercase; letter-spacing: .04em; color: #55585F; border-bottom: 0.8pt solid #141518; padding: 1.2pt 2pt; }
+td { border-bottom: 0.4pt solid #D3D5DA; padding: 1.6pt 2pt; vertical-align: top; }
+td:first-child { font: 600 6.4pt/1.25 "IBM Plex Mono", monospace; white-space: nowrap; }
+table[style*="fixed"] td:first-child { white-space: normal; word-break: break-word; }
+.grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5pt; margin-top: 1.5pt; }
+.grid div { border: 0.5pt solid #B9BBC0; border-radius: 1.5pt; padding: 1pt 2pt; font: 600 5.9pt/1.2 "IBM Plex Mono", monospace; }
+.grid div small { display: block; font: 400 5.5pt/1.15 "IBM Plex Sans", sans-serif; color: #55585F; }
+.grid .n { color: #9A9DA4; font-weight: 500; }
+.note { color: #55585F; font-size: 6.3pt; }
+.list { font-size: 6.5pt; }
+.list b { font-family: "IBM Plex Mono", monospace; font-size: 6.2pt; }
+svg { width: 100%; height: auto; display: block; margin: 1pt 0 2pt; }
+</style></head><body>
+
+<!-- ============================================================ PAGE 1 -->
+<div class="page">
+<header>
+  <div class="mark">ChordBox<span>.</span> reference</div>
+  <div class="sub">page 1: left = chords · middle = only bass · a pad always plays</div>
+</header>
+<div class="cols">
+
+<!-- column 1: the panel -->
+<div>
+  <h2>The panel: left = chords, middle = bass</h2>
+  <svg viewBox="0 0 400 150" font-family="IBM Plex Mono, monospace" font-size="9">
+    <rect x="2" y="2" width="396" height="146" rx="8" fill="#F3F3F4" stroke="#141518"/>
+    <rect x="10" y="6" width="124" height="138" rx="5" fill="none" stroke="#2F7BF0" stroke-dasharray="3 2"/>
+    <text x="72" y="16" text-anchor="middle" fill="#1B55B0" font-size="7" font-weight="600">CHORDS</text>
+    <rect x="14" y="20" width="108" height="64" rx="3" fill="#141518"/><text x="68" y="56" text-anchor="middle" fill="#fff" font-weight="600">SCREEN</text>
+    <rect x="18" y="98" width="24" height="24" rx="3" fill="#fff" stroke="#9A9DA4"/><circle cx="30" cy="110" r="7" fill="#9A9DA4"/>
+    <text x="30" y="136" text-anchor="middle" font-size="7" fill="#55585F">SHIFT</text>
+    <circle cx="92" cy="110" r="17" fill="#141518"/><text x="92" y="140" text-anchor="middle" font-weight="600" font-size="8">MAIN</text>
+    <rect x="138" y="6" width="150" height="138" rx="5" fill="none" stroke="#F25A0C" stroke-dasharray="3 2"/>
+    <text x="213" y="16" text-anchor="middle" fill="#C24A0A" font-size="7" font-weight="600">BASS STATION</text>
+    <rect x="144" y="20" width="84" height="50" rx="3" fill="#141518"/><text x="174" y="48" text-anchor="middle" fill="#fff" font-size="8">OLED</text>
+    <g fill="#fff" stroke="#141518"><rect x="232" y="22" width="11" height="9" rx="2"/><rect x="232" y="34" width="11" height="9" rx="2"/><rect x="232" y="46" width="11" height="9" rx="2"/><rect x="232" y="58" width="11" height="9" rx="2"/></g>
+    <g font-weight="600" font-size="7.5"><text x="247" y="30">UP</text><text x="247" y="42">DOWN</text><text x="247" y="54">GENRE</text><text x="247" y="66">ON/OFF</text></g>
+    <circle cx="190" cy="104" r="15" fill="#2F7BF0"/><text x="190" y="130" text-anchor="middle" font-weight="600" font-size="8" fill="#1B55B0">MIDDLE</text><text x="190" y="140" text-anchor="middle" font-size="6.5" fill="#55585F">settings · hold = SHIFT</text>
+    <rect x="296" y="12" width="92" height="96" rx="4" fill="#141518"/>
+    <g fill="#fff" font-size="7.5" text-anchor="middle">
+      <text x="308" y="32">1</text><text x="330" y="32">2</text><text x="352" y="32">3</text><text x="374" y="32">4</text>
+      <text x="308" y="54">5</text><text x="330" y="54">6</text><text x="352" y="54">7</text><text x="374" y="54">8</text>
+      <text x="308" y="76">9</text><text x="330" y="76">10</text><text x="352" y="76">11</text><text x="374" y="76">12</text>
+      <text x="308" y="98">13</text><text x="330" y="98">14</text><text x="352" y="98">15</text><text x="374" y="98">16</text>
+    </g>
+    <text x="342" y="124" text-anchor="middle" font-weight="600" font-size="8">PADS</text>
+    <text x="342" y="136" text-anchor="middle" font-size="6.5" fill="#55585F">always keys (or NOTES)</text>
+  </svg>
+
+  <h2>Left: MAIN knob (chords)</h2>
+  <table>
+    <tr><td>turn</td><td>chord page (rolls through every bank)</td></tr>
+    <tr><td>click</td><td>the chord <b>MENU</b> on the screen: turn = move, click = open / done · past 16: <b>PERFORM</b>. The pads keep playing.</td></tr>
+    <tr><td>hold</td><td>closes the MENU · when closed: <b>MODES</b> (turn + click picks)</td></tr>
+    <tr><td>pad + turn</td><td>that chord's inversion</td></tr>
+    <tr><td>pad + click</td><td><b>REPEAT</b> that chord on the clock until you let go</td></tr>
+    <tr><td>pad + middle turn</td><td>that chord's type: maj m 7 maj7 m7 9 m9 sus2 sus4 6 dim aug</td></tr>
+  </table>
+  <p class="note"><b>A pad always plays its chord</b> and brings the chord grid back: from the bass page, the MENU, MODES, SETUP. (Turning a MENU value: the pads play, the value stays open to hear it.) The first touch of MAIN or SHIFT also just brings the chords back.</p>
+
+  <h2>Middle: only the bass</h2>
+  <table>
+    <tr><td><span class="k btn">UP</span> <span class="k btn">DOWN</span></td><td>the line before / after, heard straight away (with the Move running: from the next bar) · hold = fast</td></tr>
+    <tr><td><span class="k btn">GENRE</span></td><td>tap: next genre, a line from it plays · hold: previous. 16 genres → <b>ANY</b> → FAVS</td></tr>
+    <tr><td><span class="k btn">ON/OFF</span></td><td>tap: bass on / off · <b>hold: STAR</b> the line (→ FAVS)</td></tr>
+    <tr><td>knob turn</td><td>the setting on the OLED's bottom line</td></tr>
+    <tr><td>knob click</td><td>the next setting: OCTAVE −4…+2 · DENSITY · SWING · LENGTH · GATE · ACCENT · SLIDE · DUCK · FOLLOW · TEMPO</td></tr>
+    <tr><td><b>knob held</b> = SHIFT</td><td><span class="k btn">PG UP</span> <span class="k btn">PG DN</span> 16 lines · <span class="k btn">RANDOM</span> a surprise · <span class="k btn">NOTES</span> (below) · held + turn = genre</td></tr>
+  </table>
+  <p class="note"><b>Browsing</b> (UP DOWN GENRE PG RANDOM) shows the <b>bass page</b> on the left: the 16 lines around you, each as its feel, its strongest trait, an energy meter and its bar of notes. <b>ANY</b>: DOWN picks a random genre; UP replays what you heard.</p>
+</div>
+
+<!-- column 2: NOTES, the screens, MODES -->
+<div>
+  <h2>NOTES: find the key by ear</h2>
+  <ul>
+    <li>Middle knob held + <span class="k btn">NOTES</span>: the 16 pads play single notes on the bass channel, C upwards (pad 1 = C1). The bass line rests meanwhile.</li>
+    <li>Play along with the Move. After a note: <span class="k btn">FITS</span> (top button) or <span class="k btn">CLASH</span> (second). Green = fits, red cross = clashes.</li>
+    <li>The screens show the key they point to, e.g. <b>F minor 82%</b>. Three or four answers are usually enough.</li>
+    <li><span class="k btn">USE KEY</span> (or middle click): <b>use that key</b> for chords and bass · middle turn = the pads' octave · <span class="k btn">ON/OFF</span> = bass.</li>
+    <li>Knob held + <span class="k btn">LINES</span>: the pads play chords again; the bass line comes back.</li>
+  </ul>
+
+  <h2>Reading the screens</h2>
+  <ul>
+    <li><b>Main screen</b>: the chords (or the NOTES grid). Top: mode · key · Move clock · tempo. Bottom: MAIN (turn · click) left, the middle knob right. While browsing bass: the bass page, until a pad or MAIN.</li>
+    <li><b>OLED</b>: genre (or ANY) · ON / MUTE / OFF · <b>what the line is</b>: its feel (ROLLING OFFBEAT ACID DOTTED SKIPPY GALLOP BOUNCY FUNKY DRIVING STEADY PUNCHY DEEP HELD SPARSE), traits (MELODIC ROOT OCTAVES SLIDES CHROMA LONG GHOSTS ACCENTS), energy 1–5 · its steps this bar · bottom: the knob's setting. NEXT = queued for the next bar.</li>
+    <li>In NOTES: the last note, the key guess, the 12 notes marked.</li>
+  </ul>
+
+  <h2>MODES: MAIN hold, turn, click</h2>
+  <div class="grid">
+    <div><span class="n">1</span> CHORD<small>the chord screen</small></div><div><span class="n">2</span> BASS<small>lines on the pads</small></div><div><span class="n">3</span> HUNT<small>chords of a sample</small></div><div><span class="n">4</span> LISTEN<small>chords from MIDI</small></div>
+    <div><span class="n">5</span> PLAY<small>a 16-slot loop</small></div><div><span class="n">6</span> GROW<small>4 → 8 / 16 bars</small></div><div><span class="n">7</span> MELODY<small>a line on top</small></div><div><span class="n">8</span> TAKES<small>every version</small></div>
+    <div><span class="n">9</span> SETUP<small>all settings</small></div><div><span class="n">10</span> PHONE<small>QR, chordbox.local</small></div><div><span class="n">11</span> NEW SONG<small>forget the key</small></div><div><span class="n">12</span> BUTTONS<small>teach their order</small></div>
+    <div><span class="n">13</span> KEYPAD<small>teach the wiring</small></div><div><span class="n">14</span> PRINT<small>loop once → Move</small></div><div><span class="n">15</span> CAPTURE<small>bars played → loop</small></div><div><span class="n">16</span> A/B<small>previous version</small></div>
+  </div>
+  <p class="note">A pad plays and closes it; MAIN hold again closes (or the buttons: 3rd = OPEN, the others CLOSE). In HUNT…MELODY the bottom button is MODES and a pad picks too. BUTTONS: press the four top to bottom when asked.</p>
+
+  <h2>BASS mode (MODES → 2): the pads are the lines</h2>
+  <p>The bass page, and here the pads pick its lines (tap = play from the next bar; hold + MAIN click = STAR). MAIN turn = page, click = back to CHORD. In a cell: taller bar = higher note · red = accent · line along the top = held · <b>hollow = DENSITY skips it</b> · dots = bar of a 2/4-bar line. Its MENU (MAIN hold) has EDIT, the step editor.</p>
+</div>
+
+<!-- column 3: menus, settings, Move -->
+<div>
+  <h2>Chord MENU (MAIN click, on the screen)</h2>
+  <div class="grid">
+    <div>ROOT<small>key</small></div><div>SCALE<small>off maj min dor…</small></div><div>OCTAVE</div><div>BANK<small>mood bank</small></div>
+    <div>DICE<small>substitutions</small></div><div>VAR<small>back = same</small></div><div>VOICING<small>close open shell st9</small></div><div>STRUM<small>up / down</small></div>
+    <div>HUMAN<small>late, loose</small></div><div>LATCH<small>chords hold</small></div><div>ALL OFF<small>stop all</small></div><div>MORE<small>= SETUP</small></div>
+    <div>STAR<small>keep row</small></div><div>NEW<small>generate</small></div><div>MUTATE<small>vary row</small></div><div>FAVS<small>↔ where you were</small></div>
+  </div>
+
+  <h2>PERFORM (MENU 2/2 · hold SHIFT)</h2>
+  <div class="grid">
+    <div>STRUM<small>0–400 ms</small></div><div>HUMAN</div><div>SOFT<small>gentle ↔ hard</small></div><div>B.OCT<small>bass octave</small></div>
+    <div>ARP<small>up down up-down random chord</small></div><div>RATE<small>1/4…1/32, triplets</small></div><div>RHYTHM<small>8ths offbeat house 3-3-2 dub</small></div><div>ECHO<small>1/8 3/16 1/4</small></div>
+    <div>PLAY<small>bass on/off</small></div><div>REPEAT<small>its rate</small></div><div>SWING</div><div>DENSITY</div>
+    <div>LATCH</div><div>REC<small>record → loop</small></div><div>SCENE<small>tap load · hold save</small></div><div>TEMPO<small>tap = tap tempo</small></div>
+  </div>
+
+  <h2>SETUP (MODES → 9)</h2>
+  <p>MAIN turn = select · middle turn = change · MAIN click = run / back · any pad = back.</p>
+  <p class="list"><b>CHORD</b>: PHONE LINK · NEW SONG · VELOCITY · VOICELEAD · CHORD CH · GEN DARK · GEN TENS · GEN LEN · MUTATE N · VEL RAND · WEIGHT · STRUM DIR · ARP GATE · ARP OCT · RPT RAMP · ECHO FB · LOOP LEN · PLAIN · UNSTAR ROW</p>
+  <p class="list"><b>BASS</b>: OCTAVE · LENGTH · BASS CH · NUDGE · FILL · PROG RATE · SWITCH · VELOCITY · RESYNC BAR</p>
+  <p class="list"><b>Both</b>: SCENE · SAVE SCENE · UNDO · TEMP EDITS · CLOCK · MIDI IN CH · WIFI · MELODY CH · PANIC · SCREEN FLIP · KNOB DIR · KEYPAD SETUP · BUTTON SETUP</p>
+
+  <h2>Into the Move</h2>
+  <table>
+    <tr><td>USB-C native</td><td>to the Move (MIDI + power). COM = the Mac.</td></tr>
+    <tr><td>channels</td><td>chords <b>1</b> · bass <b>2</b> · melody <b>3</b></td></tr>
+    <tr><td>clock</td><td>the Move's MIDI clock leads (MOVE in the top bar); else INT tempo</td></tr>
+  </table>
+  <p class="note"><b>SHIFT</b> (KEY0) is optional: tap = bass on/off, hold = PERFORM; in HUNT…MELODY + a button = PRINT / A/B / CAPTURE / SETUP. Held at power-on: live-safe. Firmware: <code>./build.sh esp32 flash</code> or <code>ota</code>.</p>
+</div>
+</div>
+</div>
+
+<!-- ============================================================ PAGE 2 -->
+<div class="page">
+<header>
+  <div class="mark">ChordBox<span>.</span> harmony engine</div>
+  <div class="sub">page 2 (MODES → 3–7): HUNT · LISTEN · PLAY · GROW · MELODY · slots, takes, print</div>
+</header>
+<div class="cols" style="grid-template-columns: 1.55fr 1fr;">
+
+<div>
+  <h2>The five modes</h2>
+  <table style="table-layout:fixed">
+    <colgroup><col style="width:11%"><col style="width:21%"><col style="width:16%"><col style="width:20%"><col style="width:11%"><col style="width:21%"></colgroup>
+    <tr><th>Mode</th><th>Pads</th><th>MAIN turn · click</th><th>Middle knob</th><th>NO</th><th>YES</th></tr>
+    <tr><td>HUNT<br><span class="note">chords by ear</span></td><td>top row: shapes · 12 low notes C…B. <b>Orange = try this</b> ("5" = root + fifth)</td><td>octave (offers up: pick) · play loop</td><td>TUNE ±50 c · HOLD TEST · LENGTH</td><td>CLASH · NONE</td><td>FITS: this low note sits → 3 offers · KEEP</td></tr>
+    <tr><td>LISTEN<br><span class="note">from MIDI</span></td><td>chords, to play along</td><td>plain / twist · play</td><td>BASS IN (auto/ch) · BASS ONLY · LENGTH</td><td>CLEAR</td><td>USE IT: the heard chords → the loop</td></tr>
+    <tr><td>PLAY<br><span class="note">build the loop</span></td><td>THIN FULL WIDE FLIP · 12 one-finger chords (orange = outside)</td><td>shape (all 9) · play / stop</td><td>HOME · COLOUR · RHYTHM · TOP NOTE · LENGTH</td><td>CLEAR slot</td><td>ADD last chord to the next slot</td></tr>
+    <tr><td>GROW<br><span class="note">8 / 16 bars</span></td><td>chords</td><td>Spice 0–7; ideas up: pick A B C · play</td><td>MOOD (heard as you turn) · LENGTH · RHYTHM · HOME · COLOUR</td><td>IDEAS / MORE / BACK</td><td>KEEP the one playing</td></tr>
+    <tr><td>MELODY<br><span class="note">a line on top</span></td><td>safe notes (green = in the chord now)</td><td>density 0–7 · play</td><td>VOICE · RANGE · NOTES (5 safe / 7) · LINE on/off</td><td>NEW line</td><td>TAP a rhythm over the next bar → a line</td></tr>
+    <tr><td>SLOTS<br><span class="note">top button / hold MAIN</span></td><td>16 slots: tap = select + hear · hold one, tap another = copy · SHIFT + slot = play from there</td><td>ranked next-chord suggestions for the slot · play</td><td>as the mode</td><td>CLEAR</td><td>LOCK (GROW won't touch it)</td></tr>
+    <tr><td>TAKES<br><span class="note">MODES → 8</span></td><td>–</td><td>browse · LOAD</td><td>–</td><td>BACK</td><td>STAR (kept for ever)</td></tr>
+  </table>
+
+  <h2>HUNT: the chords of a sample</h2>
+  <ul>
+    <li>MODES → 11 <b>NEW SONG</b>, then 3 HUNT. Middle knob on <b>TUNE</b>: hold a note, turn until the beating stops (old samples sit 20–50 cents off).</li>
+    <li>Tap the <b>orange</b> pad, answer FITS / CLASH (no press = unsure). Root + fifth probes find the 7 notes in 3–4 answers.</li>
+    <li>Per bar: find the lowest note that sits → YES → three chords containing it (on it, or it as 3rd / 5th: "D dark over F"). MAIN to hear each, YES keeps. The bar's slot fills; the next bar is next.</li>
+    <li>The key fills in by itself (top bar + sure bars). When two are equally likely it asks one question: <b>"B OR Bb?"</b> (play it, answer) or <b>"DRONE D OR A: WHICH RESTS?"</b>.</li>
+    <li><b>HOLD TEST</b> (no clear bass): a tapped note drones; YES = never sounds wrong → bright or dark? → home or its fifth?</li>
+  </ul>
+
+  <h2>LISTEN: from incoming notes</h2>
+  <p>Play the loop in a few times (a transcribed stem, a bassline, your own playing). It drops glitches and ghost overtones, keeps what repeats, finds the loop length (1/2/4/8 bars), the notes, home from the bass, and a chord per bar. <b>Bass only</b>: PLAIN (bass = root) or TWIST (bass = 3rd / 5th: F/A, Dm/F…). Without the Move's clock it finds the tempo itself (115–128 BPM).</p>
+
+  <h2>The controls in these modes</h2>
+  <ul>
+    <li>The four buttons by the OLED, top to bottom: <span class="k btn">SLOTS</span> (the pads ↔ the 16 slots) · <span class="k btn">NO</span> · <span class="k btn">YES</span> · <span class="k btn">MODES</span>. The OLED names what NO and YES do right now (FITS, KEEP, ADD, TAP…).</li>
+    <li><b>MAIN</b>: turn = the mode's value (table) · click = play / stop the loop. <b>Middle knob</b>: turn = the setting shown bottom-right · click = the next one · <b>hold = tap "1"</b> (the bar starts here).</li>
+  </ul>
+</div>
+
+<div>
+  <h2>Spice (GROW, MAIN turn)</h2>
+  <table>
+    <tr><td>0</td><td>exactly what you entered (A A, literal)</td></tr>
+    <tr><td>1–2</td><td>shape only: thin A / full A', a flip at the end, a held top note, Early (chords a 16th ahead)</td></tr>
+    <tr><td>3–4</td><td>+ a way back at phrase ends (bVII, v7, bVI→bVII, V9sus), third swaps, split bars</td></tr>
+    <tr><td>5–6</td><td>+ one outside chord per 8 (IV, bIImaj7…), one shape over many basses, a stuck low note</td></tr>
+    <tr><td>7</td><td>+ slide shapes (parallel chords), one chromatic-third chord; may make A A B A</td></tr>
+  </table>
+  <p class="note">Slot 1, the A you entered and locked slots never change. No diminished chords, ≤2 outside chords in a row, outside chords always lead on smoothly.</p>
+
+  <h2>Moods (GROW, middle knob on MOOD)</h2>
+  <p class="list">hypnotic deep · melancholic drive · euphoric, never lands · warm dorian funk · dusty 90s memory · piano house, hands up · gospel lift · sunset nostalgia · sunny, french disco · emotive anthem (16) · widescreen rise · lament, dramatic (16) · journey and return (A A B A, 16) · techno tension (low note stuck on home)</p>
+
+  <h2>Sound of the loop</h2>
+  <table>
+    <tr><td>SHAPE</td><td><b>thin</b> (4 upper notes, no root: the bass has it) · full · wide (4ths) · flip (higher top) · shell · piano · piano 8va · colour (6/9, #11 on IV) · block</td></tr>
+    <tr><td>RHYTHM</td><td>sustain · offbeat · dotted · tresillo · deep · M1 piano · garage · pad push · techno · <b>out of the way</b> (only shared notes, a shell, the top: for samples that already carry harmony)</td></tr>
+    <tr><td>COLOUR</td><td>bright · bright mixo · dark · dark dorian</td></tr>
+    <tr><td>TOP NOTE</td><td>free · home's 5th · 3rd · 9th: the top voice stays near it, every chord voice-led</td></tr>
+    <tr><td>HOME</td><td>by hand (the chords move with it); after HUNT / LISTEN it follows what was found</td></tr>
+  </table>
+
+  <h2>MELODY</h2>
+  <ul>
+    <li>Pads: the 5-note scale over 2+ octaves (NOTES = all 7). Nothing can clash.</li>
+    <li><b>YES (TAP)</b>: tap a rhythm on any pad over the next bar; it picks the notes. <b>NO</b>: a whole new line.</li>
+    <li>Voices: <b>lead hook</b> (2–4 notes, repeats) · <b>flute</b> (long, stepwise, grace notes) · <b>house piano</b> (octaves, call &amp; response) · <b>arp</b> (the chord's notes in order).</li>
+    <li>Form A A' A B: on-beat notes are chord notes; it ends on root, 3rd or 5th.</li>
+  </ul>
+
+  <h2>Takes, capture, print</h2>
+  <ul>
+    <li><b>Every change is a take</b> (32 kept, starred never age out, saved through power-off). <b>Hold NO</b> = step back one take every 0.6 s.</li>
+    <li><b>MODES → 16 A/B</b>: the previous take, on the next bar line (again = back) · <b>MODES → 15 CAPTURE</b>: the last bars you played on the pads become the loop.</li>
+    <li><b>Print to the Move</b>: arm a clip recording, <b>MODES → 14 PRINT</b>: the loop plays once from the next bar line (or from the Move's start), then stops.</li>
+    <li><b>NEW SONG</b> forgets the key and the votes (the old loop stays in TAKES). The song profile saves itself; there is no save button.</li>
+  </ul>
+  <h2>Five minutes: a loop</h2>
+  <p>MODES → 5 PLAY · middle knob: HOME, click, COLOUR · chord pad + YES ×4 · MAIN click to play · MODES → 6 GROW · NO for ideas, MAIN picks, YES keeps · arm the Move · MODES → 14 PRINT.</p>
+</div>
+
+</div>
+</div>
+</body></html>

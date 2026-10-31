@@ -1,0 +1,344 @@
+# chord progression data for genre-midi controller
+# progressions derived from free-midi-chords (c) 2019 Ludovic Drolez, MIT License
+# P<TAB>name[|contname]<TAB>tokens   B<TAB>bank<TAB>packedrows
+P	1111|+4455	I I I-5 I-5 IV IV V Vsus2
+P	1143	I I IV iii
+P	1111a	I Imaj7 I7 Imaj7
+P	1114	I Imaj7 I7 IV
+P	1414	I IV Isus2 IV
+P	145	I IV V
+P	1454	I IV V IV
+P	1425	I IV ii V
+P	1465	I IV vi V
+P	1473|+6251	I IV vii0 iii vi ii V I
+P	1514	I V I IV
+P	1546	I V IV vi
+P	1564	I V vi IV
+P	1565	I V vi V
+P	1562	I V vi ii
+P	1563|+4	I V vi iii IV
+P	1563a|+4145	I V vi iii IV I IV V
+P	1346	I iii IV vi
+P	1364	I iii vi IV
+P	1361	I iii vi Isus4
+P	1614	I vi I IV
+P	1645	I vi IV V
+P	1643	I vi IV iii
+P	1624	I vi ii IV
+P	1625	I vi ii V
+P	1564a	Imaj7 V7 VIadd9 IVmaj7
+P	4141	IV I IV6 Iadd9
+P	4156	IV I V vi
+P	4126	IV I ii vi
+P	4134	IV I iii IV
+P	4415	IV IV I V
+P	4615	IV vi I V
+P	4646	IV vi IV vi
+P	4631	IV vi iii I
+P	1166	Isus2 I vi7 VIsus4
+P	5165	V I vi V
+P	5461	V IV vi I
+P	5641	V vi IV I
+P	245	ii IV V
+P	2465	ii IV vi V
+P	251	ii V I
+P	2514	ii V I IV
+P	251a	ii7 Vadd9 Imaj7
+P	3641	iii vi IV I
+P	2536|+25	ii7 V7 iii7 vi7 ii7 V7
+P	6415	vi IV I V
+P	6435	vi IV iii V
+P	6545	vi V IV V
+P	6545a|+2511	vi V IV V ii V I I
+P	6251	vi ii V I
+P	b6b315	bVI bIII i v
+P	b6b61b7	bVI bVI i bVII
+P	b6b71b3	bVI bVII i bIII
+P	b6b75b3	bVI bVII v bIII
+P	b615	bVI i v
+P	b615b3	bVI i v bIII
+P	b6415	bVI iv i v
+P	b6b715|+b6b714	bVImaj7 bVII i v bVImaj7 bVII i iv7
+P	b6b71b7	bVImaj7 bVII6 i bVII6
+P	b74b71	bVII iv bVII i
+P	b7451	bVII iv v i
+P	1b3b7b6	i bIII bVII bVI
+P	1b3b74	i bIII bVII iv
+P	1b34b6	i bIII iv bVI
+P	1b6b3b7	i bVI bIII bVII
+P	1b6b3ba|+1b6b3b	i bVI bIII bVII i bVI69 bIIImaj7 bVII
+P	1b6b7	i bVI bVII
+P	1b6b74	i bVI bVII iv
+P	1b6b75	i bVI bVII v
+P	1b64b3	i bVI iv bIII
+P	1b642	i bVI iv ii0
+P	1b645	i bVI iv v
+P	1b7b3b6	i bVII bIII bVI
+P	1b7b6b3	i bVII bVI bIII
+P	1b7b6ba|+4b6b71	i bVII bVI bIII iv bVI bVII i
+P	1b7b6b7	i bVII bVI bVII
+P	1b7b64	i bVII bVI iv
+P	1b7b6bb|+15b6b7	i bVII bVIadd9 bVII i v bVI bVIIsus4
+P	1b715	i bVII i v
+P	1b715a|+b3b715	i bVII i v bIII bVII i v i
+P	1b75b6	i bVII v bVI
+P	1144|+5255	i i iv iv v7 II5 v v7
+P	125b3|+125b7	i ii0 v bIII i ii0 v bVII
+P	1251	i ii0 v i
+P	14b3b6	i iv bIII bVI
+P	14b65	i iv bVI v
+P	14b71	i iv bVII i
+P	14b75|+1125	i iv bVII v i i ii0 v
+P	145	i iv v
+P	1454	i iv v iv
+P	154b7	i v iv bVII
+P	154b6	i v0 iv bVI
+P	1b6b3bb|+11b34	i7 bVI bIIImaj7 bVII6 i i7 bIIImaj7 iv7
+P	1b7b64a	i7 bVII bVImaj7 iv7
+P	2b614	ii0 bVI i iv
+P	251	ii0 v i
+P	2514	ii0 v i iv
+P	1451	i7 IVsus4 v7 Isus4
+P	4b3b71	iv bIII bVII i
+P	4b35b6|+41b3b6	iv bIII Vsus4 bVI iv i bIII bVI
+P	4b6b71	iv bVI bVII i
+P	4b65b7	iv bVI v bVII
+P	415b6	iv i v bVI
+P	45b6b7	iv v bVI bVII
+P	5b6b31	v bVI bIII i
+P	5b651	v bVI v i
+P	514b7	v i iv bVII
+P	541	v iv i
+P	1114a|+4	I Imaj7 I9 IV iv
+P	1114aa|+41	I Imaj7 I7 IV iv I
+P	1114b|+4145	I Imaj7 I7 IV iv I iv6 V7
+P	1365	I III vi V
+P	1241	I II IV I
+P	1235	I II iii V6
+P	145b7	I IV V bVII
+P	14b3b6a	I IV bIII bVI
+P	14b74	I IV bVII IV
+P	15b74	I V bVII IV
+P	154b6	I V iv bVI
+P	1b341	I bIII IV I
+P	1b3b71	I bIII bVII I
+P	1b3b74a	I bIII bVII IV
+P	1b3b6b7	I bIII bVI bVII
+P	1b213	I bII I iii
+P	1b2b3b2|+11b7b2	I bIImaj7 bIII6 bIImaj7 I i bVII bII
+P	1b711|+b65	I bVII I I bVI V
+P	1b745	I bVII IV V
+P	1b7b64|+44	I bVII bVI IV IVsus4 IV
+P	1b7b6b2	I bVII bVI bII
+P	1b61b2	I bVI I bII
+P	1b64b3a|+b7	I bVI IV bIII bVII
+P	1b6b74a	I bVI bVII iv
+P	11b7b6	I i bVII6 bVI
+P	14b3b7	I iv bIII bVII
+P	16b65	I vi bVI V
+P	132b5|+4657	I5 iii II5 bv IV5 vi V5 vii
+P	1732|+5	Imaj7 VII7 iii7 ii7 V7
+P	3566|+12	III V VIsus4 VI I II
+P	4521|+b34	IV V ii i bIII IV
+P	6b61b7	VI bVI i bVII
+P	b351	bIII V7 I
+P	b32b21	bIII ii bII I
+P	b2b6b3b	bII bVI biii bvii
+P	b24b31	bII iv biii i
+P	b751	bVII V7 I
+P	b7b2b31	bVII bII bIII i
+P	b6b3b74|+1	bVI bIII bVII IV I
+P	b6b71b2	bVI bvii i bII
+P	b661b7	bVI vi i bVII
+P	b641	bVImaj7 ivadd9 I
+P	245b7	ii IV v bVII
+P	2b21b7	ii bII I bVII
+P	2b71	ii bVIImaj7 I
+P	3131	iii i iii i7
+P	15b74a|+b6b345	i V bVII IV bVI bIII iv V
+P	163b2	i VI III bII
+P	1675	i VI VII V
+P	1b345	i bIII IV V
+P	1b34b6	i bIII IV bVI
+P	1b3b74a	i bIII bVII IV
+P	1b3b65	i bIII bVI V
+P	1b34	i bIIIsus2 IV
+P	1b2b3ba	i bII bIII bII
+P	1b2b24	i bII bii6 iv
+P	1b21b7	i bII i7 bvii
+P	1b243|+b2433	i bII iv III bII iv III III
+P	1b251	i bII v i7
+P	1b741	i bVII IV i
+P	1b7b25	i bVII bII v
+P	1b614	i bVI i IV
+P	1b645	i bVI iv V
+P	1b7b6bb	i bvii bVI bII
+P	1254	i ii v IV
+P	14b21	i iv9 bII i
+P	14b21a|+54b21	i iv9 bII i v iv7 bII i7
+P	171b2	i vii i bii
+P	15b74b	i v bVII IV
+P	15b6b2	i v bVI bII
+P	1511	i v Isus4 I
+P	154b2	i v iv bIImaj7
+P	43b21	iv III bII I
+P	4b3b21	iv bIII bII I
+P	4b3b61	iv bIII bVI I
+P	4b325	iv bIII ii7 V
+P	41b7b6	iv i bvii bVI
+P	554b3	v0 v0 iv bIII
+P	6412	vi IV I II
+P	6b6b71	vi bVI bVII I
+P	6756|+b55	vi vii V vi bv0 V
+P	Anthem	I V vi IV
+P	EDMpop	vi IV I V
+P	DooWop	I vi IV V
+P	50s	I vi ii V
+P	Pachbl	I V vi iii
+P	Axis	IV I V vi
+P	Lift	I iii IV V
+P	Rise	I ii iii IV
+P	Bright	I IV vi V
+P	Drop	vi IV V I
+P	Hook	I V IV vi
+P	Bridge	ii V I vi
+P	Ballad	I V vi iii
+P	Sunset	vi V IV V
+P	Glow	IV V vi I
+P	Punch	I bVII IV I
+P	Smooth	Imaj7 vi7 ii7 V7
+P	Turn	ii7 V7 Imaj7 vi7
+P	Neo	IVmaj7 iii7 ii7 Imaj7
+P	Velvet	Imaj7 IVmaj7 iii7 vi7
+P	Gospel	I I7 IV iv
+P	Walk	Imaj7 iii7 IVmaj7 V7
+P	Sunday	vi7 ii7 V7 Imaj7
+P	Cool	IVmaj7 V7 iii7 vi7
+P	Honey	ii7 V7 iii7 vi7
+P	Slow	Imaj7 vi7 IVmaj7 V7
+P	Late	iii7 vi7 ii7 V7
+P	Silk	Imaj7 V7 vi7 IVmaj7
+P	Groove	ii9 V9 Imaj7 Imaj7
+P	Mello	vi7 V7 IVmaj7 iii7
+P	Tender	IVmaj7 iii7 vi7 ii7
+P	Lush	Imaj7 ii7 iii7 IVmaj7
+P	Deep	ii7 V7 Imaj7 vi7
+P	Minor	i7 bVI bIII bVII
+P	Tech	i iv v i
+P	Anthem	vi7 IV I V
+P	Pump	vi IV I V
+P	Night	i bVII bVI bVII
+P	Sub	i7 iv7 i7 v7
+P	Lift	IV V vi I
+P	Drive	vi V IV V
+P	Detroit	i bIII bVII iv
+P	Garage	ii7 V7 vi7 Imaj7
+P	Roller	I V vi IV
+P	Acid	i i bVII bVI
+P	Float	IVmaj7 Imaj7 ii7 V7
+P	Dawn	vi IV V I
+P	Pulse	i v iv i
+P	Classic	I7 IV7 I7 V7
+P	Minor	i7 iv7 i7 v7
+P	Vamp	I7 IV7 V7 IV7
+P	JB	I7 I7 IV7 I7
+P	Clav	i7 i7 iv7 v7
+P	Strut	I7 bVII IV7 I7
+P	Slap	i7 bIII iv7 i7
+P	Horn	IV7 I7 V7 I7
+P	Wah	i7 v7 iv7 i7
+P	Pocket	I7 IV7 ii7 V7
+P	Bridge	ii7 V7 I7 I7
+P	Chic	Imaj7 vi7 ii7 V7
+P	Disco	vi7 ii7 V7 Imaj7
+P	Greasy	i7 iv7 bVII i7
+P	Stank	I7 IV7 I7 IV7
+P	Bounce	i7 i7 v7 iv7
+P	Minor	i bVI bIII bVII
+P	Hero	I bVII IV I
+P	Lydian	I II IV I
+P	Tense	i iv i V
+P	Rise	i bVI bVII i
+P	March	i bVII bVI V
+P	Dark	i bII i vii0
+P	Quest	i iv bVI V
+P	Glory	I V vi IV
+P	Storm	i bVI iv V
+P	Fate	i V bVI bVII
+P	Vast	bVI bVII i i
+P	Sorrow	i iv bVI bVII
+P	Trail	i bIII bVII iv
+P	Aurora	I IV II V
+P	Throne	i bVII bIII bVI
+P	Chill	IVmaj7 iii7 ii7 Imaj7
+P	Rainy	ii7 v7 i7 bVI
+P	Study	Imaj7 vi7 ii7 V7
+P	Dusk	iii7 vi7 ii7 V7
+P	Tape	IVmaj7 Imaj7 ii7 V7
+P	Sleep	i7 iv7 bVII bVI
+P	Cozy	Imaj7 IVmaj7 iii7 vi7
+P	Drift	vi7 ii7 V7 Imaj7
+P	Mist	ii7 V7 iii7 vi7
+P	Warm	IVmaj7 V7 Imaj7 vi7
+P	Nap	i7 bIII bVII iv7
+P	Velour	Imaj7 iii7 IVmaj7 ii7
+P	Hazy	vi7 V7 IVmaj7 iii7
+P	Snug	IVmaj7 iii7 ii7 V7
+P	Calm	Imaj7 ii7 vi7 V7
+P	FloatL	ii9 V9 Imaj7 Imaj7
+P	251	ii7 V7 Imaj7 vi7
+P	Turn	iii7 vi7 ii7 V7
+P	Bird	Imaj7 VI7 ii7 V7
+P	Bossa	IVmaj7 iii7 ii7 V7
+P	Blues	I7 IV7 I7 V7
+P	Modal	ii7 ii7 Imaj7 Imaj7
+P	Swing	Imaj7 vi7 ii7 V7
+P	Coltr	IVmaj7 V7 iii7 vi7
+P	Latin	ii9 V9 Imaj7 vi7
+P	Ballad	Imaj7 IVmaj7 iii7 vi7
+P	Minor	i7 iv7 ii7 V7
+P	Rhythm	Imaj7 vi7 ii7 V7
+P	Walk	iii7 VI7 ii7 V7
+P	Cool	IVmaj7 iii7 vi7 ii7
+P	BridgeJ	ii7 V7 iii7 VI7
+P	Tag	ii7 V7 Imaj7 Imaj7
+P	Vamp	I IV V IV
+P	Heroic	I bVII IV I
+P	Power	I V IV I
+P	Punk	vi IV I V
+P	Anthem	I V vi IV
+P	Grunge	i bIII bVII IV
+P	Blues	I IV I V
+P	Riff	i bVII bVI bVII
+P	Stones	V IV I I
+P	Ballad	I vi IV V
+P	Drive	I bVII bVI bVII
+P	Epic	vi IV I V
+P	Garage	I IV V V
+P	Stoner	i bVI bVII i
+P	Surf	I vi IV V
+P	BridgeR	IV V I vi
+B	Major	0,1,2,4,6,8,10,12,14,16,18,19,20,22,24,26,28,30,31,32,33,34,36,38,40,42,44,46,48,50,52,54,56,58,60,62,64,66,68,70,72,74,76,78,80,82,84,86,88,89,90,92,94,96,97,98
+B	Minor	100,102,104,106,108,110,112,114,115,116,118,120,122,124,126,128,130,131,132,134,136,138,140,142,144,146,148,149,150,152,154,155,156,158,159,160,162,163,164,165,166,168,170,172,174,175,176,178,180,182,184,185,186,188,190,192,194,196,198,199,200,202,204,206,208,210,212,214
+B	Modal	216,217,218,219,220,221,222,224,226,228,230,232,234,236,238,240,242,244,246,248,249,250,251,252,254,255,256,258,260,261,262,264,266,268,270,271,272,273,274,275,276,277,278,280,282,284,286,288,290,292,293,294,296,298,300,302,304,306,308,309,310,312,314,316,318,320,322,324,326,328,330,331,332,334,336,338,340,342,344,346,348,349,350,352,354,356,358,360,362,364,366,368,370,372,374,376,377
+B	Joy	0,1,10,12,14,16,20,30,31,32,33,50,52,54,58,60,222,224,232,252
+B	Hope	2,8,16,22,24,26,28,30,31,32,33,36,42,60,62,70,72,74,76,82,90,92,94,96,97,98,110,112,116,128,142,146,160,170,188,190,202,204,208,222,244,250,251,254,255,276,277,296,304,316,322,338,342,344,352,354,356,372,374
+B	Romant	18,19,22,24,26,28,34,36,42,44,48,54,62,68,70,74,78,86,88,89,90,92,94,98,122,126,152,168,186,216,217,220,221,238,318
+B	Nostlg	2,6,34,40,44,46,48,56,64,66,86,88,89,100,104,106,110,114,115,116,122,124,126,128,134,138,146,154,155,156,168,172,182,184,185,186,192,196,198,199,204,208,216,217,218,219,230,254,255,260,261,262,264,266,276,277,298,300,310,318,330,331,338,344,346,352,376,377
+B	Tender	8,38,40,46,56,112,118,130,131,140,190,192,194,298,326,328,348,349,356,366,372
+B	Play	4,6,10,20,50,52,58,66,68,218,219,220,221,270,271,272,273
+B	Triumf	0,1,12,14,18,19,72,80,82,84,96,97,102,104,114,115,124,132,144,150,166,200,224,226,228,234,240,242,244,250,251,252,256,262,270,271,274,275,292,293,304,312,314,320,340,374
+B	Surpr	148,149,158,159,174,175,226,236,246,248,249,258,268,272,273,274,275,278,282,284,310
+B	Myst	120,130,131,134,136,148,149,156,158,159,160,162,163,164,165,166,174,175,178,194,196,198,199,202,206,230,236,242,246,248,249,258,260,261,264,266,268,282,284,286,290,292,293,294,296,300,302,306,308,309,312,314,316,320,322,324,326,328,330,331,332,336,342,346,348,349,350,354,358,366,370
+B	Sad	108,138,140,142,152,154,155,170,172,176,178,180,188,210,214
+B	Dark	100,120,162,163,164,165,182,184,185,212,286,294,306,324,332,350,358,368,370,376,377
+B	Rebel	106,132,136,144,150,180,206,212,228,232,234,240,256,278,290,302,308,309,336
+B	Cadenc	280,288,334,360,362,364
+B	Pop	378,380,382,384,386,388,390,392,394,396,398,400,402,404,406,408
+B	Soul	410,412,414,416,418,420,422,424,426,428,430,432,434,436,438,440
+B	House	442,444,446,448,450,452,454,456,458,460,462,464,466,468,470,472
+B	Funk	474,476,478,480,482,484,486,488,490,492,494,496,498,500,502,504
+B	Epic	506,508,510,512,514,516,518,520,522,524,526,528,530,532,534,536
+B	LoFi	538,540,542,544,546,548,550,552,554,556,558,560,562,564,566,568
+B	Jazz	570,572,574,576,578,580,582,584,586,588,590,592,594,596,598,600
+B	Rock	602,604,606,608,610,612,614,616,618,620,622,624,626,628,630,632

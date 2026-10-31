@@ -1,0 +1,262 @@
+# ChordBox basslines — hand-written patterns, one line each.
+#
+# G <TAB> id <TAB> name <TAB> swing % <TAB> gate % (of a 16th, for plain notes)
+# P <TAB> NAME (8 chars max) <TAB> 16, 32 or 64 steps: 1, 2 or 4 bars (| between beats is only for reading)
+#   Multi-bar lines answer themselves: bar 2 varies bar 1, the last bar turns around into the loop.
+#
+# Notes are ROLES, not pitches, so every line follows the chord you play:
+#   R root   O octave up   L octave down   5 fifth   3 third   7 seventh
+#   2 second  4 fourth  6 sixth  b flat second (dark, phrygian)
+#   u upper neighbour (next scale note)   a approach (scale note under the next root)
+#   c chromatic approach (a semitone under the next root)
+#   . rest    _ tie (hold the previous note)
+# Modifiers after a note:  ! accent   ' ghost   ~ slide into the next note
+#                          > short    = long (legato to the next note)   + / - octave
+#
+# Kick sits on steps 1, 5, 9, 13. Most grooves here dodge it on purpose.
+
+G	TECHNO	Techno	50	45
+P	TUNNEL	. R' R R | . R' R R | . R' R R | . R' R O | . R' R R | . R' R R | . R' R b | . R O! 5-
+P	STALKER	. . R! . | . R' . R | . . R! . | . . . . | . . R! . | . R' . R | . . R! . | . O' . R
+P	FLICKER	. R . R' | . R . R' | . R . R' | . R . R' | . R . R' | . R . O | . R . R' | . 5 R' O!
+P	WAREHSE	. R R' R | . R R' R | . R R' R | . R R' R | . R R' R | . R R' R | . R R' R | . R O R' | . R R' R | . R R' R | . R R' R | . R R' R | . R R' R | . b R' R | . R R' R | . O! 5 b
+P	SIGNAL	. . R! . | . . . R' | . . R . | . . . . | . . R! . | . . . R' | . . R . | . . O' . | . . R! . | . . . R' | . . R . | . . . . | . . R! . | . . 5 R' | . . R . | b . R O!
+P	ROLLER	. R' R R! | . R' R R | . R' R R! | . R' R R
+P	OFFBEAT	. . R! . | . . R . | . . R! . | . . R .
+P	GALLOP	. R! R' . | . R! R' . | . R! R' . | . R! R' .
+P	DRIVER	. R R R | . R R R | . R R R | . R R O
+P	PHRYGIA	. R R b | . R R R | . R R b | . R 5- R
+P	RUMBLE	. . R= _ | . . R= _ | . . R= _ | . . R= _
+P	SYNCOPE	. . R! . | . R . . | R! . . R | . . R .
+P	DOTTED	R! . . R | . . R . | . R . . | R . . R
+P	TWONOTE	. R R . | . O . . | . R R . | . 5 . .
+P	BERGHAIN	. R' R R | . R' R O | . R' R R | . R' R 5-
+P	KNOCK	. . . R! | . . . R | . . . R! | . . R R
+P	HYPNOTIC	. R . R | . R . R' | . R . R | . R R' R
+P	PULSE8	R> . R> . | R> . R> . | R> . R> . | R> . R> .
+P	DROPLOW	. R R . | . L . . | . R R . | . L . R
+P	RAVE	. . R! . | R' . R . | . . R! . | . O . .
+P	INDUSTRY	R! R R' R | R! R R' R | R! R R' R | R! R b R
+
+G	ACID	Acid	52	55
+P	ACIDWALK	R! R~ O R' | . R 5~ R | . R! O . | R 7~ R . | R! R~ O R' | . R 3~ 5 | . O! 7~ 5 | R b~ R O
+P	RESO	R . R~ R | O! . R R' | . R~ b R | . O . R! | R . R~ R | O! . R R' | . R~ 5 7 | O! 7~ 5 3~
+P	SQUIRM	R~ R~ O R | . R! . b~ | R . O~ R | . 5 R' . | R~ R~ O R | . R! . 3~ | 5 . O~ 7 | R! . O! .
+P	CUBES	R! . R R~ | O . R! . | R R~ b . | R! . O . | R! . R R~ | O . R! . | R R~ 5 . | 7! . O . | R! . R R~ | O . R! . | R R~ b . | R! . O . | R! . R R~ | O~ 7~ 5~ 3 | R! R~ O R~ | O! 7 5 b
+P	SLIME	. R! O~ R | . R' R~ 5 | . R! O~ R | R' . 7 . | . R! O~ R | . R' R~ 5 | . R! O~ R | b' . R . | . R! O~ R | . R' R~ 5 | . R! O~ R | R' . 7 . | . R! O~ R | . O! R~ 5 | 3~ 5~ 7~ O | R! O! R .
+P	SQUELCH	R! R~ O R' | . R! 5~ R | . R O! . | R 7~ R R
+P	TB303	R . R~ O | R! . b R | . R~ O . | R! 7 . R
+P	ACIDTRAX	O! R R~ 5 | R' R! . O~ | R . R! 7~ | R R' O .
+P	SLIDER	R~ R~ R O! | . R 3~ 5 | R! . R~ O | . 7 R' .
+P	PHUTURE	R! . O . | R~ 5 . R! | . O~ R . | b! . R O
+P	RUBBER	R R' R~ 3 | 5! . R O | R~ R . 7 | R! R' O~ R
+P	CHICACID	. R! O~ R | . R 5 R'~ | . R! O~ R | 7 . R b
+P	WIGGLE	R! R O R | 5~ R R! . | R O~ R R | 3 . 5! R
+P	DOWNWARD	O! 7~ 5 R | . O! 7~ R | O! 5~ 3 R | . R L R!
+P	HOOVER	R! . . R~ | O . R! . | . R~ b R | . O! . R
+P	STAB303	R! . R! . | . O~ R . | R! . R! . | . 7~ 5 .
+P	SNAKE	R~ b~ R . | 3~ R . R! | . R~ b~ R | 5 . O! .
+
+G	HOUSE	House	54	60
+P	PROMISE	. . R . | . . R . | . . R . | . R' 5 . | . . R . | . . R . | . . O . | . a . .
+P	BALLROOM	R . . R' | . . 5 . | . . R . | 7 . . . | R . . R' | . . 5 . | . . O . | 5 . 3 .
+P	JACKBOX	. R' . R | . . R . | . R' . R | . . O . | . R' . R | . . R . | . R' . 5 | . 6 7 .
+P	GARDEN	. . R . | . . R . | . . R . | . . R . | . . R . | . . R . | . . R . | . R' 5 . | . . R . | . . R . | . . R . | . . R . | . . R . | . . R . | . . O . | 7 . 5 a
+P	SOULTRN	R . . R | . . 5 . | . R . . | 3 . . . | R . . R | . . 5 . | . R . . | 5 . 6 . | R . . R | . . 5 . | . R . . | 3 . . . | R . . R | . . 5 . | O . 7 . | 5 . 3 c
+P	CLASSIC	. . R . | . . R . | . . R . | . . R .
+P	OCTAVE	. . R . | . . O . | . . R . | . . O .
+P	PICKUP	. . R . | . . R . | . . R . | . R' R .
+P	CHICAGO	R . . R | . . R . | 5 . . 5 | . . 7 .
+P	ORGAN	. . R . | . R . . | . . R . | . R . .
+P	JACKIN	R . R' . | . R . R' | R . R' . | . R O .
+P	WALKER	R . . . | 5 . . . | O . . . | 5 . 3 .
+P	FILTER	. . R R | . . R . | . . R R | . . O .
+P	SOULFUL	R= . . R | . . 5 . | 7 . . R | . 3 . .
+P	PIANOHSE	R . . R | . . 5 . | . R . . | O . . .
+P	UPDOWN	. . O . | . . R . | . . O . | . . R .
+P	BOUNCE	. R . . | . R . R | . R . . | . R 5 .
+P	NYC	R . . R' | . . R . | . . 5 . | R . . .
+P	SWINGER	. . R . | R' . R . | . . R . | R' . 7 .
+
+G	DEEP	Deep House	56	80
+P	NIGHTBUS	R= _ . 5 | . . 7 . | . . R . | . . . . | R= _ . 5 | . . 7 . | . . O . | 5 . . .
+P	MOSS	. . R= _ | . . . 5 | . . 3= _ | . . . . | . . R= _ | . . . 5 | . . 7= _ | . 5 . a
+P	LUSH	R . . . | 2 . 3 . | . . 5 . | . . . . | R . . . | 2 . 3 . | . . 7 . | . 6 5 .
+P	TIDES	R= _ _ . | . . 5 . | . . . . | 7 . . . | R= _ _ . | . . 5 . | . . . . | 3 . . . | R= _ _ . | . . 5 . | . . . . | 7 . . . | R= _ _ . | . . 5 . | O . 7 . | 5 . 3 a
+P	VINYLSKY	. . R . | . . . R | . . 5 . | . . . . | . . R . | . . . R | . . 7 . | . . 5 . | . . R . | . . . R | . . 5 . | . . . . | . . R . | . . . R | . . 7 . | 6 . 5 3
+P	MIDNIGHT	R= . . 5 | . . 7= . | . . R . | 3 . . .
+P	HAZE	. . R= _ | . . . 5 | . . 7= _ | . . . .
+P	VELVET	R= _ . . | . . R . | 5= _ . . | . . 7 .
+P	LOUNGE	. . R . | . . . R | . . 5 . | . . 7 .
+P	WARM	R . . R | . . . 5~ | 7 . . . | R . . .
+P	SUBDEEP	R= _ _ . | . . R . | . . . . | 5 . R .
+P	NINTH	R . . . | 2 . . 3 | . . 5 . | . . . .
+P	SOULDEEP	. . R= . | . 5 . . | . . 7= . | . 5 . 3
+P	SUNDAY	R= _ _ _ | . . . . | 5= _ _ _ | . . 3 .
+P	DRIFT	. R= _ . | . . 5 . | . R= _ . | . . 7 .
+
+G	TECHHOUSE	Tech House	55	40
+P	BOUNCER	. R> . R'> | . R> . . | . R> . R'> | . R> O> . | . R> . R'> | . R> . . | . R> . R'> | . 5> 7> O>
+P	PUMPCLUB	. . R> R> | . . R> . | . . R> R> | . . R> . | . . R> R> | . . R> . | . . O> R> | . b> R> .
+P	WOBBLEY	. R!> . . | . R'> O> . | . R!> . . | . R'> . R> | . R!> . . | . R'> O> . | . R!> . 5> | . 3> . R>
+P	SWAGGER	. R> R'> . | . R> . R> | . R> R'> . | . O> . R> | . R> R'> . | . R> . R> | . R> R'> . | . O> . R> | . R> R'> . | . R> . R> | . R> R'> . | . 5> . 7> | . R> R'> . | . R> . R> | . O> R> . | 5> . b> R>
+P	IBIZA	. . R> . | . R> . R'> | . . R> . | . 5> . R> | . . R> . | . R> . R'> | . . R> . | . O> . R> | . . R> . | . R> . R'> | . . R> . | . 5> . R> | . . R> . | . R> . R'> | . . O> . | 7> 5> 3> R>
+P	BOUNCY	. R> . R'> | . R> . . | . R> . R'> | . R> O> .
+P	DONK	. . R> R> | . . R> . | . . R> R> | . 5> R> .
+P	GROOVER	. R> R'> . | . R> . R> | . R> R'> . | . O> . R>
+P	SHUFFLE	. . R> . | R'> . R> . | . . R> . | R'> . O> .
+P	PUMPER	. R> R> R'> | . R> R> . | . R> R> R'> | . R> 7> .
+P	CLUBBY	. . R> . | . R> . R'> | . . R> . | . 5> . R>
+P	SLAP	. R!> . . | . R'> O> . | . R!> . . | . R'> 5> .
+P	RUBBERBD	. R> . R> | . . R> . | . R> . R> | . . b> R>
+P	HOOKY	. R> O> R> | . . R> . | . R> O> R> | . . 5> .
+P	LATIN	. . R> . | . R> . . | R> . . R> | . . R> .
+
+G	MINIMAL	Minimal	54	35
+P	DOTDASH	. . . R> | . . R'> . | . . . R> | . . . . | . . . R> | . . R'> . | . . . . | . O'> . R>
+P	FIELD	. R'> . . | . . . R> | . . . . | . . R'> . | . R'> . . | . . . R> | . . 5'> . | . . . b>
+P	RIPPLE	. . R> . | . R'> . . | . . R> . | . . . . | . . R> . | . R'> . R'> | . . R> . | . . O'> .
+P	LOWTIDE	. . R> . | . . . . | . R> . . | . . . R'> | . . R> . | . . . . | . R> . . | . . . R'> | . . R> . | . . . . | . R> . . | . 5> . R'> | . . R> . | . . O'> . | . R> . . | . b> R> .
+P	GLITCHY	. R'> . R> | . . . . | . . R'> . | . . . . | . R'> . R> | . . . . | . . R'> . | . . R> . | . R'> . R> | . . . . | . . R'> . | . . . . | . R'> . R> | . . O'> . | . . R'> . | 5'> . R> R>
+P	CLICK	. . . R> | . . R'> . | . . . R> | . . . .
+P	SPARSE	. . R> . | . . . . | . R> . . | . . . R'>
+P	MICRO	. R'> . . | . . . R> | . . R'> . | . . . .
+P	BLIP	. . . . | . . R> . | . . . R> | . R'> . .
+P	DUBMIN	. . R . | . . . . | . . . . | R . . .
+P	TICKTOCK	. . R> . | . . R> O> | . . R> . | . . . .
+P	PERLON	. R'> . R> | . . . . | . R'> . R> | . . b> .
+P	SKIP	. . . R> | . R'> . . | . . R> . | . . . R'>
+
+G	GARAGE	Garage	62	60
+P	SHUFFLER	R . . R | . . . . | . . R . | . R . . | R . . R | . . O . | . . R . | . 5 . a
+P	LOVERS	R= . . R | . . 5 . | . . . . | R . . . | R= . . R | . . 5 . | . . 7 . | 5 . 3 .
+P	SUBSKIP	R . . . | . . R . | . R . . | . . . R | R . . . | . . R . | . O . . | 5 . . R
+P	SPEEDGRG	R . . R | . . . . | . . R . | . R . . | R . . R | . . . . | . . R . | . O . . | R . . R | . . . . | . . R . | . R . . | R . . R | . . . . | . 5 . 7 | O . 5 a
+P	WARPED	R . . 5 | . . R . | . 7 . . | R . . . | R . . 5 | . . R . | . 7 . . | O . . . | R . . 5 | . . R . | . 7 . . | R . . . | R . . 5 | . . R . | . O . 7 | 5 . 3 c
+P	2STEP	R . . R | . . . . | . . R . | . R . .
+P	SKIPPY	R . . . | . . R . | . R . . | R . . .
+P	BUMPY	R . . R | . . O . | . R . . | . . 5 .
+P	SPEED	R . R' . | . . R . | . R . R' | . . . .
+P	SUBGAR	R= . . R | . . . . | . . R= _ | . . . .
+P	WONKY	R . . 5 | . . R . | . 7 . . | R . . .
+P	BASSLINE	R . O . | R . O . | R . 5 . | 7 . O .
+P	BRUK	R . . R | . . R . | . . . . | R . . 5
+
+G	ELECTRO	Electro	50	45
+P	CIRCUIT	R . . R | . . O . | R . . R | . 5 . . | R . . R | . . O . | R . b . | O . 5 .
+P	SPEAKSP	R! . R O | . R . . | R! . R O | . b . R | R! . R O | . R . . | R! . 7 5 | . b . O!
+P	LASER	R . O . | . R . O | R . O . | . 5 . 7 | R . O . | . R . O | R . O . | 7 . 5 b
+P	SUBQUAKE	R! . . R | . . R . | O . . R | . . . . | R! . . R | . . R . | O . . R | . 5 . . | R! . . R | . . R . | O . . R | . . . . | R! . . R | . . R . | O . 7 . | 5 . b R
+P	HYDRO	R . b . | R . . O | . R . b | . . R . | R . b . | R . . O | . R . b | . . 5 . | R . b . | R . . O | . R . b | . . R . | R . b . | R . . O | . 5 . 7 | O! . b R
+P	PLANET	R . . R | . . O . | R . . R | . 5 . .
+P	ROBOT	R! . R O | . R . . | R! . R O | . b . R
+P	CYBER	R . O . | . R . O | R . O . | . 5 . 7
+P	DETROIT	R . . R | O . . R | . . R . | O . 5 .
+P	MIAMI	R . . . | . . R . | . . R R | . . O .
+P	BREAKIN	R . . R | . . . R | . . R . | . R . .
+P	DREXCIYA	R! . b . | R . . O | . R . b | . . R .
+P	ZAPP	R . O R | . . R . | 7 . 5 . | R . . .
+
+G	BREAKS	Breaks	53	55
+P	CHOPPER	R . . R' | . . R . | . R . . | 5 . . . | R . . R' | . . R . | . R . O | . 7 5 .
+P	NUFUNK	R . . R | . . . . | . . R R | . . . . | R . . R | . . . . | . . R O | . 5 . b
+P	JUNGLED	R= . . . | . . R . | . . . R | . . . . | R= . . . | . . R . | . . . O | . . 5 .
+P	RAVEBRK	R . R . | . . . . | . . R . | R . . . | R . R . | . . . . | . . R . | O . . . | R . R . | . . . . | . . R . | R . . . | R . R . | . . . . | . O . 7 | 5 . b R
+P	SKUNKED	. . R . | . . R . | . . R . | . R . R | . . R . | . . R . | . . R . | . O . R | . . R . | . . R . | . . R . | . R . R | . . R . | . . R . | . . O . | 5 . 3 a
+P	BREAKBT	R . . . | . . R . | . . R . | . . . .
+P	NUSKOOL	R . . R | . . . . | . . R R | . . . .
+P	FUNKYBRK	R . . R' | . . R . | . R . . | 5 . . .
+P	AMEN	R . R . | . . . . | . . R . | R . . .
+P	BIGBEAT	R= . . . | . . R . | R= . . . | . . 5 .
+P	BRKDOWN	R . . . | . . . R | . . R . | . . . R
+P	SKANKY	. . R . | . . R . | . . R . | . R . R
+P	ROLLBRK	R . . R | . . R . | . R . . | R . R .
+
+G	BASSMUS	Bass Music	50	90
+P	GRIMEY	R! . . . | . . R . | . . . . | O . . . | R! . . . | . . R . | . . b . | . . R .
+P	HALFSTEP	R= _ _ _ | . . . . | . . R . | . . . . | R= _ _ _ | . . . . | . O . . | b . 5- .
+P	SWAMP	R= _ _ _ | . . . . | R . . . | . . . . | R= _ _ _ | . . . . | R . . . | . . R . | R= _ _ _ | . . . . | R . . . | . . . . | R= _ _ _ | . . . . | b= _ . . | R . O! .
+P	HALFTIME	R= _ _ _ | . . . . | R . . . | . . . . | R= _ . . | . . R . | . . . . | b . R .
+P	WOBBLE	R . R . | R . R . | . . . . | . . R . | R . R . | R . R . | . . . . | L . . .
+P	DROP	R! . . . | . . . . | . . R . | . . . . | R! . . . | . . . . | O . R . | . . . .
+P	REESE	R= _ _ _ | _ _ _ _ | b= _ _ _ | _ _ _ _ | R= _ _ _ | _ _ _ _ | 5-= _ _ _ | _ _ . .
+P	TRAP808	R= _ . . | . . . . | . . R . | . R . . | R= _ . . | . . . . | O . . R | . . . .
+P	STEPPER	R . . . | . . R . | . . . . | R . . . | R . . . | . . R . | . . b . | . . . .
+
+G	DISCO	Disco	52	55
+P	STUDIO54	R . O . | R . O . | R . O . | 5 . O . | R . O . | R . O . | 7 . O . | 6 . 5 .
+P	BASSWALK	R . O . | 5 . O . | R . O . | 7 . O . | R . 3 . | 5 . O . | 7 . 6 . | 5 . 3 .
+P	SLAPDSCO	R! . . O | . R . O | R! . . O | . 5 . 7 | R! . . O | . R . O | R! . O . | 7 . 5 a
+P	SPACEDSC	R R O R | . R O . | R R O R | . 5 O . | R R O R | . R O . | R R O R | . 5 O . | R R O R | . R O . | R R O R | . 7 O . | R R O R | . R O . | 7 7 O 7 | 5 5 O a
+P	OCTAVES	R . O . | R . O . | R . O . | R . O .
+P	DISCOWLK	R . O . | 5 . O . | R . O . | 7 . O .
+P	NUDISCO	R . O R | . . O . | R . O R | . 5 O .
+P	FUNKYTWN	R . R O | . R . O | R . R O | . 5 . 7
+P	PHILLY	R . . O | . R . O | 5 . . O | 7 . O .
+P	ITALO	R R O R | R R O R | R R O R | 5 5 O 5
+P	CHIC	R . . R | O . R . | . R . O | . 7 . .
+P	BOOGIE	R . 3 . | 5 . O . | 7 . 5 . | 3 . R .
+
+G	AFRO	Afro House	55	60
+P	KALAHARI	R . . R | . . R . | . R . . | 5 . . . | R . . R | . . R . | . R . 3 | . 5 . .
+P	DRUMCIRC	. . R . | . R . . | R . . . | . R . 5 | . . R . | . R . . | R . . 7 | . 5 . 3
+P	LOGDRUM	. . . . | . . R= _ | . . . . | . R . . | . . . . | . . R= _ | . . 5 . | . R . O
+P	SUNRISE	R . . R | . . . R | . . R . | . . . . | R . . R | . . . R | . . R . | . 5 . . | R . . R | . . . R | . . R . | . . . . | R . . R | . . . R | . . 3 . | 5 . 7 .
+P	TRESILLO	R . . R | . . R . | R . . R | . . R .
+P	AFROHSE	R . . 5 | . . R . | . R . . | 5 . . .
+P	ORGANIC	. . R . | . R . . | R . . . | . R . 5
+P	SHAKER	R . . R | . R . . | R . . R | . . 5 .
+P	KALIMBA	R . 5 . | . R . . | 3 . . R | . 5 . .
+P	AMAPIANO	. . . . | . . R= _ | . . . . | . . R . | . . . . | . . R= _ | . . . . | 5 . R .
+P	DESERT	R . . R | . . . R | . . R . | . 7 . .
+P	RITUAL	R . . R | . . R . | . . R . | R . . .
+
+G	TRANCE	Trance	50	40
+P	ROLLING	. R R R | . R R R | . R R R | . R R R | . R R R | . R R R | . R R R | . 5 5 5
+P	PSYGATE	. R R R | . R R R | . R' R R | . R R R | . R R R | . R R R | . R' R R | . b R O
+P	ANTHEM	. R R O | . R R O | . R R O | . R R O | . R R O | . R R O | . R R O | . R R O | . R R O | . R R O | . 5 5 O | . 5 5 O | . R R O | . R R O | . 3 3 O | . 5 5 O
+P	OFFROLL	. R R R | . R R R | . R R R | . R R R
+P	GALLOPTR	. R O R | . R O R | . R O R | . R O R
+P	PSYROLL	. R R R | . R R R | . R R R | . R 5 R
+P	PROG	. . R R | . . R R | . . R R | . . R O
+P	UPLIFT	. R R O | . R R O | . R R O | . R 5 O
+P	PSYDARK	. R R R | . R R R | . R' R R | . b R R
+P	EUPHORIA	. . R . | . . R . | . . O . | . . 5 .
+P	EPIC	R . . R | . . R . | . R . . | R . 5 .
+
+G	MELODIC	Melodic	50	60
+P	AURORA	R . 5 . | O . 5 . | 3 . 5 . | O . 7 . | R . 5 . | O . 5 . | 7 . 5 . | 3 . 2 .
+P	AFTERGLW	R . . R | 3 . 5 . | R . . R | 7 . 5 . | R . . R | 3 . 5 . | O . . 7 | 5 . 3 .
+P	VOYAGE	R= _ . 5 | . O . . | 3 . . 5 | . . . . | R= _ . 5 | . O . . | 7 . . 5 | . . . . | R= _ . 5 | . O . . | 3 . . 5 | . . . . | R= _ . 5 | . O . 7 | . 5 . 3 | 2 . R .
+P	ARPEGGIO	R . 5 . | O . 5 . | 3 . 5 . | O . 7 .
+P	AFTERLIF	R . . R | 3 . 5 . | R . . R | 7 . 5 .
+P	RISING	R . 3 . | 5 . 7 . | O . 7 . | 5 . 3 .
+P	PULSEMEL	. R 5 R | . R 7 R | . R 5 R | . R 3 R
+P	CASCADE	O . 7 . | 5 . 3 . | R . 3 . | 5 . 7 .
+P	HYPNOMEL	R . R 5 | . R . 3 | R . R 5 | . R 7 .
+P	SPHERE	R= _ 5 . | . O . . | 3= _ . . | 5 . R .
+P	TENSION	R . b . | R . 3 . | R . b . | 5 . 7 .
+P	ANJUNA	R . 5 O | . 5 . 3 | R . 5 O | . 7 . 5
+P	DRAMA	R= _ _ _ | 5= _ _ _ | 3= _ _ _ | 2= _ _ _
+
+G	DUB	Dub Techno	54	95
+P	FOGHORN	R= _ _ _ | . . . . | 5= _ _ _ | . . . . | R= _ _ _ | . . . . | 3= _ . . | . . 5 .
+P	SMOKE	R= . . 5 | . . . . | R= . . 3 | . . . . | R= . . 5 | . . . . | 7= . . 5 | . . . .
+P	BASEMENT	. . R= _ | . . . . | . . R= _ | . . . . | . . R= _ | . . . . | . . 5= _ | . . . . | . . R= _ | . . . . | . . R= _ | . . . . | . . R= _ | . . . . | . . 7= _ | . 5 . .
+P	DUBTECH	R= _ _ _ | . . . . | 5= _ _ _ | . . . .
+P	CHAIN	. . R= _ | . . . . | . . R= _ | . . 5 .
+P	ECHOES	R= _ . . | . . . . | . . R . | . . . .
+P	BASIC	. . R= _ | _ . . . | . . 5= _ | _ . . .
+P	STEPPERS	R . . R | . . . . | R . . R | . . 5 .
+P	ROOTS	R= . . 5 | . . . . | R= . . 3 | . . . .
+
+G	EBM	EBM	50	50
+P	MARCH	R! R R R | R! R R R | R! R R R | R! R R R | R! R R R | R! R R R | R! R R b | R! R O R
+P	STEEL	R! . R R | R! . R R | R! . R R | R! . b R | R! . R R | R! . R R | R! . 5- R | R! . O R
+P	IRONGRID	R R' R R | b R' R R | R R' R R | 5- R' R R | R R' R R | b R' R R | R R' R R | 5- R' R R | R R' R R | b R' R R | R R' R R | O R' R R | R R' R R | b R' R R | O R' R O | b R' 5- R
+P	BODY	R! R R R | R! R R R | R! R R R | R! R R R
+P	EIGHTS	R! . R . | R! . R . | R! . R . | R! . R .
+P	MACHINE	R! R R' R | R! R R' R | R! R R' R | R! R O R
+P	NITZER	R R' R R | b R' R R | R R' R R | 5- R' R R
+P	DAF	R! . R R | R! . R R | R! . R R | R! . b R
+P	PULSEWAV	R . R R | . R R . | R . R R | . R O .
